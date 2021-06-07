@@ -54,7 +54,7 @@ class TPQueue {
       tail = head;
     }
   }
-  
+
   T pop() {
       assert(head);
       ITEM* temp = head->next;
